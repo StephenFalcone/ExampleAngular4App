@@ -1,14 +1,14 @@
-import { AppPage } from './app.po';
+import { A4appPage } from './app.po';
 
-describe('mean-chat App', () => {
-  let page: AppPage;
+describe('a4app App', () => {
+  let page: A4appPage;
 
   beforeEach(() => {
-    page = new AppPage();
+    page = new A4appPage();
   });
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!!');
   });
 });
